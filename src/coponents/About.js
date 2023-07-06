@@ -1,5 +1,5 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+
 
 export default function About(props) {
   return (
@@ -13,8 +13,9 @@ export default function About(props) {
     </h2>
     <div id="collapseOne" className="accordion-collapse collapse show"  data-bs-parent="#accordionExample">
       <div className="accordion-body">
-        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
+      We believe that words have the power to inspire, 
+      educate, and connect people from all walks of life. We are passionate 
+      about the written word and the endless possibilities it brings to the digital world.      </div>
     </div>
   </div>
   <div className="accordion-item" style={{backgroundColor: props.mode===`dark`?`gray`:`white`}}>
@@ -25,8 +26,9 @@ export default function About(props) {
     </h2>
     <div id="collapseTwo" className="accordion-collapse collapse"  data-bs-parent="#accordionExample">
       <div className="accordion-body">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
+      What sets us apart is our commitment to quality. Every piece of content that graces our web page
+       undergoes a meticulous review process. Our team ensures that each sentence is carefully crafted, 
+       every idea is well-researched, and the final product meets the highest standards of excellence      </div>
     </div>
   </div>
   <div className="accordion-item" style={{backgroundColor: props.mode===`dark`?`gray`:`white`}}>
@@ -37,8 +39,8 @@ export default function About(props) {
     </h2>
     <div id="collapseThree" className="accordion-collapse collapse"  data-bs-parent="#accordionExample">
       <div className="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
+      We strive to deliver informative and captivating texts that cater to a wide range of interests and
+       topics. Whether you're seeking articles, blog posts, or thought-provoking essays, we have you covered.      </div>
     </div>
   </div>
 </div>
